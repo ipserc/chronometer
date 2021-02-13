@@ -191,7 +191,7 @@ public class Chronometer {
 	
 	/**
 	 * Switches ON or OFF the lap function of the chronometer
-	 * @return For lap ON returns the time at which the chronometer starts in milliseconds. For lap OFF returns the lap time in milliseconds
+	 * @return  For lap ON returns the moment in milliseconds at which the chronometer starts. For lap OFF returns the elapsed time in milliseconds
 	 */
 	public long lap() {
 		if (lapON == false) {
