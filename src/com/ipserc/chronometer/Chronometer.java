@@ -181,7 +181,7 @@ public class Chronometer {
 	
 	/**
 	 * Starts the chronometer. It Does a reset of all the values.
-	 * @return The time at which the chronometer starts in millisecodns
+	 * @return The time at which the chronometer starts in milliseconds
 	 */
 	public long start() {
 		reset();
@@ -191,7 +191,7 @@ public class Chronometer {
 	
 	/**
 	 * Switches ON or OFF the lap function of the chronometer
-	 * @return For lap ON returns the time at which the chronometer starts in millisecodns. For lap OFF returns the lap time in milliseconds
+	 * @return For lap ON returns the time at which the chronometer starts in milliseconds. For lap OFF returns the lap time in milliseconds
 	 */
 	public long lap() {
 		if (lapON == false) {
